@@ -1,0 +1,55 @@
+#table{
+	width:90%;
+	margin:0 auto;
+	border-spacing:0;
+}
+#table td{
+	padding:10px !important;
+	margin:0 !important;
+}
+#table th{
+	padding:10px !important;
+	margin:0 !important;
+	text-align:left;
+}
+#headTr{
+	font-weight:bold;
+	background-color:#ff6347ab !important;
+	font-size:20px;
+}
+#headTr:hover{
+	background-color:#ff6347 !important;
+}
+#table tr:hover{
+	background-color:rgba(0,0,0,0.2);
+	transform:sclaeX(1.5) !important;
+}
+#search{
+	width:90%;
+	margin:auto;
+	position:relative !important;
+}
+#searchBar{
+	width:50%;
+	padding:10px;
+	padding-left:35px;
+	margin:10px 0;
+	border:none;
+}
+
+#search::after{
+	content:"\1F50D";
+	position:absolute !important;
+	font-size:20px;
+	left:5px;
+	top:15px !important;
+	cursor:pointer;
+}
+#select{
+	padding:10px;
+	border:none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+table{
+	font-family: 'Roboto Condensed', sans-serif;
+}
